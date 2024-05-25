@@ -25,6 +25,7 @@ def main():
     print(" import and create Interests node")
     import_interests(graph, csv_file)
 
+
 def import_users(graph, csv_file):
     with open(csv_file, encoding='utf-8') as csvfile:
         reader = csv.DictReader(csvfile)
